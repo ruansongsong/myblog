@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Web AR效果</title>
+  <link rel="stylesheet" type="text/css" href="./lib/index.css">
+  <script type="text/javascript" src="./lib/polyfill.js"></script>
+  <script type="text/javascript" src="./lib/cv.js"></script>
+  <script type="text/javascript" src="./lib/aruco.js"></script>
+</head>
+
+<body>
+  <h2>Web AR效果</h2>
+  <video id="video" autoplay="true" style="display:none;"></video>
+  <div id="stage">
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div id="card" class="" style="left: 47px; top: 132px;">
+      <p class="name text">识别成功</p>
+      <div class="avatar_container">
+        <div class="avatar"></div>
+      </div>
+    </div>
+  </div>
+  <script src="./lib/index.js"></script>
+
+
+
+</body>
+
+</html>
