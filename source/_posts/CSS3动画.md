@@ -6,10 +6,10 @@ tags:
 - CSS
 categories: 笔记 # CSS3动画
 ---
-<!--more-->
+
 ## CSS Transition 动画
 过渡动画，当某个元素的 css 属性发生变化时，CSS Transition 能控制其变化的速率，比如鼠标 hover 改变颜色 
-
+<!--more-->
 ### 属性
 `transition: property duration timing-function delay;`
 - transition-property	规定设置过渡效果的 `CSS 属性`的名称。
